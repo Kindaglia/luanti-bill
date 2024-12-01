@@ -1,4 +1,4 @@
-minetest.register_node("drying_rack:bill", {
+minetest.register_node("bill:bill", {
     description = "Bill Drying Rack", -- Descrizione del blocco
     drawtype = "mesh",
     mesh = "bill.obj",
@@ -18,5 +18,5 @@ minetest.register_node("drying_rack:bill", {
         type = "fixed",
         fixed = {-0.5, -0.5, -0.5, 0.5, 0.5, 0.5}, -- Se necessario, regola la collisione del blocco
     },
-    groups = {choppy = 2, oddly_breakable_by_hand = 2},
+    groups = {choppy = 2, oddly_breakable_by_hand = 2}
 })
